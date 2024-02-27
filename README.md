@@ -1,1 +1,0 @@
-# VocaVerse_application
