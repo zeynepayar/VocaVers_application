@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.sudedenizsuvar.vocaverseapplication"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.sudedenizsuvar.vocaverseapplication"
