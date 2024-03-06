@@ -15,7 +15,7 @@
         android:layout_height="493dp"
         android:background="@android:drawable/editbox_background_normal"
         tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="165dp">
+        tools:layout_editor_absoluteY="169dp">
 
         <TextView
             android:id="@+id/loginnametext"
@@ -26,7 +26,7 @@
             android:textColor="@color/material_dynamic_neutral50"
             android:textSize="22sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="62dp" />
+            tools:layout_editor_absoluteY="71dp" />
 
         <TextView
             android:id="@+id/loginpasswordtext"
@@ -43,8 +43,6 @@
             android:id="@+id/loginnameedittext"
             android:layout_width="257dp"
             android:layout_height="48dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
             android:background="@drawable/edittextbackground"
             android:drawableLeft="@drawable/account"
             android:drawablePadding="5dp"
@@ -56,9 +54,8 @@
             android:textColor="@color/material_dynamic_neutral20"
             android:textColorHint="@color/material_dynamic_neutral20"
             android:textSize="15sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="101dp" />
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="110dp" />
 
         <EditText
             android:id="@+id/loginpasswordedirttext"
@@ -76,19 +73,19 @@
             android:textColorHint="@color/black"
             android:textSize="15sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="207dp" />
+            tools:layout_editor_absoluteY="209dp" />
 
         <Button
             android:id="@+id/loginbutton"
             android:layout_width="255dp"
-            android:layout_height="58dp"
+            android:layout_height="47dp"
             android:background="@drawable/button"
             android:fontFamily="@font/alata"
             android:text="log ın "
 
             android:textSize="18sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="280dp" />
+            tools:layout_editor_absoluteY="279dp" />
 
         <TextView
             android:id="@+id/loginforgotpassword"
@@ -98,7 +95,7 @@
             android:textColor="@color/material_dynamic_neutral40"
             android:textSize="12sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="359dp" />
+            tools:layout_editor_absoluteY="336dp" />
 
         <TextView
             android:id="@+id/loginsignup"
@@ -107,8 +104,8 @@
             android:text="Signup!"
             android:textColor="@color/material_dynamic_neutral40"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="357dp" />
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="342dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

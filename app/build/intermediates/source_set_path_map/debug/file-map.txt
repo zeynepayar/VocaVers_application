@@ -25,10 +25,10 @@ com.sudedenizsuvar.vocaverseapplication.app-appcompat-resources-1.6.1-23 C:\User
 com.sudedenizsuvar.vocaverseapplication.app-constraintlayout-2.1.4-24 C:\Users\sudes\.gradle\caches\transforms-3\e64150522a85b3dc5137a03f84c1e31e\transformed\constraintlayout-2.1.4\res
 com.sudedenizsuvar.vocaverseapplication.app-core-ktx-1.9.0-25 C:\Users\sudes\.gradle\caches\transforms-3\e6a27d6181bf8b9fb438427e80ddb52b\transformed\core-ktx-1.9.0\res
 com.sudedenizsuvar.vocaverseapplication.app-lifecycle-viewmodel-savedstate-2.6.1-26 C:\Users\sudes\.gradle\caches\transforms-3\e82b7db37e353467921e2e5237047574\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-com.sudedenizsuvar.vocaverseapplication.app-pngs-27 C:\Users\sudes\VocaVerseApplication\app\build\generated\res\pngs\debug
-com.sudedenizsuvar.vocaverseapplication.app-resValues-28 C:\Users\sudes\VocaVerseApplication\app\build\generated\res\resValues\debug
-com.sudedenizsuvar.vocaverseapplication.app-packageDebugResources-29 C:\Users\sudes\VocaVerseApplication\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.sudedenizsuvar.vocaverseapplication.app-packageDebugResources-30 C:\Users\sudes\VocaVerseApplication\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.sudedenizsuvar.vocaverseapplication.app-merged_res-31 C:\Users\sudes\VocaVerseApplication\app\build\intermediates\merged_res\debug
-com.sudedenizsuvar.vocaverseapplication.app-debug-32 C:\Users\sudes\VocaVerseApplication\app\src\debug\res
-com.sudedenizsuvar.vocaverseapplication.app-main-33 C:\Users\sudes\VocaVerseApplication\app\src\main\res
+com.sudedenizsuvar.vocaverseapplication.app-pngs-27 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\build\generated\res\pngs\debug
+com.sudedenizsuvar.vocaverseapplication.app-resValues-28 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\build\generated\res\resValues\debug
+com.sudedenizsuvar.vocaverseapplication.app-packageDebugResources-29 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.sudedenizsuvar.vocaverseapplication.app-packageDebugResources-30 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.sudedenizsuvar.vocaverseapplication.app-merged_res-31 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\build\intermediates\merged_res\debug
+com.sudedenizsuvar.vocaverseapplication.app-debug-32 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\debug\res
+com.sudedenizsuvar.vocaverseapplication.app-main-33 C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\res
