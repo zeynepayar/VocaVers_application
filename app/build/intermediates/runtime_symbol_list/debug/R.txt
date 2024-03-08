@@ -2990,6 +2990,7 @@ int drawable design_ic_visibility_off 0x7f080087
 int drawable design_password_eye 0x7f080088
 int drawable design_snackbar_background 0x7f080089
 int drawable edittextbackground 0x7f08008a
+int drawable email 0x7f0800e4
 int drawable ic_arrow_back_black_24 0x7f08008b
 int drawable ic_clear_black_24 0x7f08008c
 int drawable ic_clock_black_24dp 0x7f08008d
@@ -3087,6 +3088,15 @@ int id ALT 0x7f0a0000
 int id BOTTOM_END 0x7f0a0001
 int id BOTTOM_START 0x7f0a0002
 int id CTRL 0x7f0a0003
+int id CreateLiittleTitletextView 0x7f0a01f8
+int id CreateLittleTitletext 0x7f0a01f9
+int id CreateLogin 0x7f0a01fa
+int id CreateNameEdittext 0x7f0a01fb
+int id CreateNametext 0x7f0a01fc
+int id CreatePasswordEditText 0x7f0a01fd
+int id CreatePasswordtext 0x7f0a01fe
+int id CreateTitletextView 0x7f0a01ff
+int id Createbutton 0x7f0a0200
 int id FUNCTION 0x7f0a0004
 int id META 0x7f0a0005
 int id NO_DEBUG 0x7f0a0006
@@ -3217,6 +3227,8 @@ int id coordinator 0x7f0a0082
 int id cos 0x7f0a0083
 int id counterclockwise 0x7f0a0084
 int id cradle 0x7f0a0085
+int id createEmailEdittext 0x7f0a0201
+int id createEmailtext 0x7f0a0202
 int id currentState 0x7f0a0086
 int id custom 0x7f0a0087
 int id customPanel 0x7f0a0088
@@ -3322,12 +3334,7 @@ int id line3 0x7f0a00eb
 int id linear 0x7f0a00ec
 int id listMode 0x7f0a00ed
 int id list_item 0x7f0a00ee
-int id loginbutton 0x7f0a00ef
 int id loginforgotpassword 0x7f0a00f0
-int id loginnameedittext 0x7f0a00f1
-int id loginnametext 0x7f0a00f2
-int id loginpasswordedirttext 0x7f0a00f3
-int id loginpasswordtext 0x7f0a00f4
 int id loginsignup 0x7f0a00f5
 int id m3_side_sheet 0x7f0a00f6
 int id marquee 0x7f0a00f7
@@ -3537,8 +3544,6 @@ int id textSpacerNoButtons 0x7f0a01c2
 int id textSpacerNoTitle 0x7f0a01c3
 int id textStart 0x7f0a01c4
 int id textTop 0x7f0a01c5
-int id textView 0x7f0a01c6
-int id textView2 0x7f0a01c7
 int id text_input_end_icon 0x7f0a01c8
 int id text_input_error_icon 0x7f0a01c9
 int id text_input_start_icon 0x7f0a01ca
@@ -3701,7 +3706,6 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0d0018
 int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
-int layout activity_main 0x7f0d001c
 int layout custom_dialog 0x7f0d001d
 int layout design_bottom_navigation_item 0x7f0d001e
 int layout design_bottom_sheet_dialog 0x7f0d001f
@@ -3718,6 +3722,7 @@ int layout design_navigation_menu 0x7f0d0029
 int layout design_navigation_menu_item 0x7f0d002a
 int layout design_text_input_end_icon 0x7f0d002b
 int layout design_text_input_start_icon 0x7f0d002c
+int layout login_page 0x7f0d006a
 int layout m3_alert_dialog 0x7f0d002d
 int layout m3_alert_dialog_actions 0x7f0d002e
 int layout m3_alert_dialog_title 0x7f0d002f
@@ -3769,6 +3774,7 @@ int layout mtrl_picker_text_input_date 0x7f0d005c
 int layout mtrl_picker_text_input_date_range 0x7f0d005d
 int layout mtrl_search_bar 0x7f0d005e
 int layout mtrl_search_view 0x7f0d005f
+int layout new_user_page 0x7f0d006b
 int layout notification_action 0x7f0d0060
 int layout notification_action_tombstone 0x7f0d0061
 int layout notification_template_custom_big 0x7f0d0062

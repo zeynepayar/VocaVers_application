@@ -28,7 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Design.NoActionBar" >
         <activity
-            android:name="com.sudedenizsuvar.vocaverseapplication.MainActivity"
+            android:name="com.sudedenizsuvar.vocaverseapplication.new_user_page"
+            android:exported="false" />
+        <activity
+            android:name="com.sudedenizsuvar.vocaverseapplication.login_page"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

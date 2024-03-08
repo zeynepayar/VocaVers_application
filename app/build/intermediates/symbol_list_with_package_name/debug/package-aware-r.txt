@@ -2991,6 +2991,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edittextbackground
+drawable email
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3088,6 +3089,15 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id CreateLiittleTitletextView
+id CreateLittleTitletext
+id CreateLogin
+id CreateNameEdittext
+id CreateNametext
+id CreatePasswordEditText
+id CreatePasswordtext
+id CreateTitletextView
+id Createbutton
 id FUNCTION
 id META
 id NO_DEBUG
@@ -3218,6 +3228,8 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
+id createEmailEdittext
+id createEmailtext
 id currentState
 id custom
 id customPanel
@@ -3323,12 +3335,7 @@ id line3
 id linear
 id listMode
 id list_item
-id loginbutton
 id loginforgotpassword
-id loginnameedittext
-id loginnametext
-id loginpasswordedirttext
-id loginpasswordtext
 id loginsignup
 id m3_side_sheet
 id marquee
@@ -3538,8 +3545,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3702,7 +3707,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3719,6 +3723,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout login_page
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3770,6 +3775,7 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout mtrl_search_bar
 layout mtrl_search_view
+layout new_user_page
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

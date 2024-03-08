@@ -1,106 +1,122 @@
 [
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/font_alata.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/font/alata.xml"
+        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/layout_login_page.xml.flat",
+        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/layout/login_page.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_lock.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\lock.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/font_poppins_thin.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/font/poppins_thin.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_edittextbackground.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/edittextbackground.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\layout_login_page.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\layout\\login_page.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_button.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/button.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\font_poppins_thin.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\font\\poppins_thin.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\font_poppins_extralight.ttf.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\font\\poppins_extralight.ttf"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\font_acme.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\font\\acme.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_email.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\email.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_buttonbackground.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\buttonbackground.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/font_poppins_extralight.ttf.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/font/poppins_extralight.ttf"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\font_alata.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\font\\alata.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_buttonbackground.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/buttonbackground.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\layout_new_user_page.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\layout\\new_user_page.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_button.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\button.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/font_acme.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/font/acme.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_lock.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/lock.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_edittextbackground.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\edittextbackground.xml"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_account.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/account.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_account.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\account.xml"
+    },
+    {
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     }
 ]
