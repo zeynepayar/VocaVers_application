@@ -166,5 +166,10 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="109dp" />
 
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 

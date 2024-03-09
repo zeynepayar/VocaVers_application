@@ -114,7 +114,7 @@
 
             android:textSize="18sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="358dp" />
+            tools:layout_editor_absoluteY="354dp" />
 
         <TextView
             android:id="@+id/CreateLogin"
@@ -123,8 +123,20 @@
             android:text="Login!"
             android:textColor="@color/material_dynamic_neutral40"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="422dp" />
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        <TextView
+            android:id="@+id/CreateLittleTitletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Already Registered ? Login here !"
+            android:textColor="@color/material_dynamic_neutral40"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="419dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -139,17 +151,5 @@
         android:textSize="35sp"
         tools:layout_editor_absoluteX="83dp"
         tools:layout_editor_absoluteY="27dp" />
-
-    <TextView
-        android:id="@+id/CreateLittleTitletext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/alata"
-        android:gravity="center"
-        android:text="Already Registered ? Login here !"
-        android:textColor="@color/offWhite"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="135dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
