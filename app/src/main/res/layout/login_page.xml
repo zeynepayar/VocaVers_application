@@ -4,143 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cherryRed"
+    android:background="@drawable/background"
     tools:context=".login_page">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-
-
-        android:id="@+id/constraintLayout"
-        android:layout_width="306dp"
-        android:layout_height="493dp"
-        android:background="@android:drawable/editbox_background_normal"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="151dp">
-
-        <TextView
-            android:id="@+id/CreateNametext"
-            android:layout_width="86dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="75dp"
-            android:layout_marginEnd="185dp"
-            android:fontFamily="@font/alata"
-            android:text="NAME"
-            android:textColor="@color/material_dynamic_neutral50"
-            android:textSize="22sp"
-            app:layout_constraintBottom_toTopOf="@+id/CreateNameEdittext"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/CreatePasswordtext"
-            android:layout_width="143dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="128dp"
-            android:fontFamily="@font/alata"
-            android:text="PASSWORD"
-            android:textColor="@color/material_dynamic_neutral50"
-            android:textSize="22sp"
-            app:layout_constraintBottom_toTopOf="@+id/CreatePasswordEditText"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/CreateNameEdittext" />
-
-        <EditText
-            android:id="@+id/CreateNameEdittext"
-            android:layout_width="257dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="14dp"
-            android:layout_marginBottom="12dp"
-            android:background="@drawable/edittextbackground"
-            android:drawableLeft="@drawable/account"
-            android:drawablePadding="5dp"
-            android:ems="10"
-            android:fontFamily="@font/alata"
-            android:hint="User Name"
-            android:inputType="text"
-            android:padding="10dp"
-            android:textColor="@color/material_dynamic_neutral20"
-            android:textColorHint="@color/material_dynamic_neutral20"
-            android:textSize="15sp"
-            app:layout_constraintBottom_toTopOf="@+id/CreatePasswordtext"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/CreateNametext" />
-
-        <EditText
-            android:id="@+id/CreatePasswordEditText"
-            android:layout_width="255dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="50dp"
-            android:background="@drawable/edittextbackground"
-            android:drawableLeft="@drawable/lock"
-            android:drawablePadding="5dp"
-            android:ems="10"
-            android:fontFamily="@font/alata"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:textColor="@color/material_dynamic_neutral20"
-            android:textColorHint="@color/black"
-            android:textSize="15sp"
-            app:layout_constraintBottom_toTopOf="@+id/Createbutton"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/CreatePasswordtext" />
-
-        <Button
-            android:id="@+id/Createbutton"
-            android:layout_width="255dp"
-            android:layout_height="47dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/button"
-
-            android:fontFamily="@font/alata"
-            android:text="log ın "
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="279dp" />
-
-        <TextView
-            android:id="@+id/loginforgotpassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="113dp"
-            android:layout_marginEnd="85dp"
-            android:gravity="center"
-            android:text="Forgot Password?"
-            android:textColor="@color/material_dynamic_neutral40"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="351dp" />
-
-        <TextView
-            android:id="@+id/loginsignup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="142dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="113dp"
-            android:layout_marginBottom="98dp"
-            android:text="Signup!"
-            android:textColor="@color/material_dynamic_neutral40"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loginforgotpassword" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/CreateLittleTitletextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="Sign in to continue"
+        android:textColor="@color/offWhite"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="132dp" />
 
     <TextView
         android:id="@+id/CreateTitletextView"
@@ -152,19 +28,98 @@
         android:textColor="@color/offWhite"
         android:textSize="40sp"
         tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="35dp" />
+        tools:layout_editor_absoluteY="45dp" />
 
     <TextView
-        android:id="@+id/CreateLiittleTitletextView"
+        android:id="@+id/loginsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Signup!"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <TextView
+        android:id="@+id/loginforgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Forgot Password?"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <Button
+        android:id="@+id/Createbutton"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
+        android:background="@drawable/edittextbackground"
         android:fontFamily="@font/alata"
-        android:text="Sign in to continue"
-        android:textColor="@color/offWhite"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="109dp" />
+        android:text="log ın "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <EditText
+        android:id="@+id/CreatePasswordEditText"
+        android:layout_width="255dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/CreateNameEdittext"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="User Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textColorHint="@color/material_dynamic_neutral20"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/CreatePasswordtext"
+        android:layout_width="143dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/alata"
+        android:text="PASSWORD"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/CreateNametext"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/alata"
+        android:text="NAME"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="176dp" />
 
     <androidx.constraintlayout.helper.widget.Layer
         android:id="@+id/layer"

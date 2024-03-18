@@ -9,6 +9,7 @@ color cherryRed
 color offWhite
 color white
 drawable account
+drawable background
 drawable button
 drawable buttonbackground
 drawable edittextbackground
@@ -20,8 +21,8 @@ font acme
 font alata
 font poppins_extralight
 font poppins_thin
-id CreateLiittleTitletextView
 id CreateLittleTitletext
+id CreateLittleTitletextView
 id CreateLogin
 id CreateNameEdittext
 id CreateNametext
@@ -29,11 +30,17 @@ id CreatePasswordEditText
 id CreatePasswordtext
 id CreateTitletextView
 id Createbutton
+id ForgotEmailEdittext
+id ForgotLoginbutton
+id ForgotNametext
+id ForgotResetbutton
 id constraintLayout
 id createEmailEdittext
 id createEmailtext
+id layer
 id loginforgotpassword
 id loginsignup
+layout forgot_password_page
 layout login_page
 layout new_user_page
 mipmap ic_launcher

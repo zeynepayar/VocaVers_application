@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\sudes\.gradle\caches\transforms-3\b3863bfa1272a563921ae210836eac1e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sudes\.gradle\caches\transforms-3\e64150522a85b3dc5137a03f84c1e31e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\sudes\.gradle\caches\transforms-3\e56fdac0f9b9861d3d7a0dedb97a301d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -56,8 +56,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\sudes\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:5:5-31:19
-INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:5:5-34:19
+INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\sudes\.gradle\caches\transforms-3\b3863bfa1272a563921ae210836eac1e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\sudes\.gradle\caches\transforms-3\b3863bfa1272a563921ae210836eac1e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sudes\.gradle\caches\transforms-3\e64150522a85b3dc5137a03f84c1e31e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -96,34 +96,40 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sudes\.gradle\cach
 		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:13:9-56
 	android:dataExtractionRules
 		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.sudedenizsuvar.vocaverseapplication.new_user_page
+activity#com.sudedenizsuvar.vocaverseapplication.forgot_password_page
 ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:16:13-42
-activity#com.sudedenizsuvar.vocaverseapplication.login_page
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:18:9-26:20
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:16:13-49
+activity#com.sudedenizsuvar.vocaverseapplication.new_user_page
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:19:13-39
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:19:13-42
+activity#com.sudedenizsuvar.vocaverseapplication.login_page
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:22:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:27:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:28:9-30:57
+ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:31:9-33:57
 	android:resource
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:30:13-54
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:33:13-54
 	android:name
-		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml:32:13-43
 uses-sdk
 INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sudes\AndroidStudioProjects\VocaVers_application\app\src\main\AndroidManifest.xml

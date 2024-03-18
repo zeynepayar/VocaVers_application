@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Design.NoActionBar" >
         <activity
+            android:name="com.sudedenizsuvar.vocaverseapplication.forgot_password_page"
+            android:exported="false" />
+        <activity
             android:name="com.sudedenizsuvar.vocaverseapplication.new_user_page"
             android:exported="false" />
         <activity

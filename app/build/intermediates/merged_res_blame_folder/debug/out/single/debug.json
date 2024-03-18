@@ -52,6 +52,10 @@
         "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\drawable\\buttonbackground.xml"
     },
     {
+        "merged": "com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:/drawable_background.xml.flat",
+        "source": "com.sudedenizsuvar.vocaverseapplication.app-main-33:/drawable/background.xml"
+    },
+    {
         "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -70,6 +74,10 @@
     {
         "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\layout_new_user_page.xml.flat",
         "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\layout\\new_user_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\layout_forgot_password_page.xml.flat",
+        "source": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-main-33:\\layout\\forgot_password_page.xml"
     },
     {
         "merged": "C:\\Users\\sudes\\.gradle\\daemon\\8.0\\com.sudedenizsuvar.vocaverseapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
