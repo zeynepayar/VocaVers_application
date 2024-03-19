@@ -4,141 +4,129 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cherryRed"
+    android:background="@drawable/background"
     tools:context=".new_user_page">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
+        android:id="@+id/CreateLittleTitletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="Already Registered ? Login here !"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="592dp" />
 
+    <TextView
+        android:id="@+id/CreateLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login!"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="620dp" />
 
-        android:id="@+id/constraintLayout"
-        android:layout_width="306dp"
-        android:layout_height="493dp"
-        android:background="@android:drawable/editbox_background_normal"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="167dp">
+    <Button
+        android:id="@+id/Createbutton"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/alata"
+        android:text="Sıgn up "
 
-        <EditText
-            android:id="@+id/createEmailEdittext"
-            android:layout_width="257dp"
-            android:layout_height="48dp"
-            android:background="@drawable/edittextbackground"
-            android:drawableLeft="@drawable/email"
-            android:drawablePadding="5dp"
-            android:ems="10"
-            android:fontFamily="@font/alata"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:padding="10dp"
-            android:textColor="@color/material_dynamic_neutral20"
-            android:textColorHint="@color/material_dynamic_neutral20"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="176dp" />
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="527dp" />
 
-        <TextView
-            android:id="@+id/createEmailtext"
-            android:layout_width="86dp"
-            android:layout_height="36dp"
-            android:fontFamily="@font/alata"
-            android:text="EMAIL"
-            android:textColor="@color/material_dynamic_neutral50"
-            android:textSize="22sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="143dp" />
+    <EditText
+        android:id="@+id/CreatePasswordEditText"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="451dp" />
 
-        <TextView
-            android:id="@+id/CreateNametext"
-            android:layout_width="86dp"
-            android:layout_height="36dp"
-            android:fontFamily="@font/alata"
-            android:text="NAME"
-            android:textColor="@color/material_dynamic_neutral50"
-            android:textSize="22sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="41dp" />
+    <EditText
+        android:id="@+id/CreateNameEdittext"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="User Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textColorHint="@color/material_dynamic_neutral20"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="248dp" />
 
-        <TextView
-            android:id="@+id/CreatePasswordtext"
-            android:layout_width="143dp"
-            android:layout_height="37dp"
-            android:fontFamily="@font/alata"
-            android:text="PASSWORD"
-            android:textColor="@color/material_dynamic_neutral50"
-            android:textSize="22sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="242dp" />
+    <TextView
+        android:id="@+id/CreatePasswordtext"
+        android:layout_width="143dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/alata"
+        android:text="PASSWORD"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="415dp" />
 
-        <EditText
-            android:id="@+id/CreateNameEdittext"
-            android:layout_width="257dp"
-            android:layout_height="48dp"
-            android:background="@drawable/edittextbackground"
-            android:drawableLeft="@drawable/account"
-            android:drawablePadding="5dp"
-            android:ems="10"
-            android:fontFamily="@font/alata"
-            android:hint="User Name"
-            android:inputType="text"
-            android:padding="10dp"
-            android:textColor="@color/material_dynamic_neutral20"
-            android:textColorHint="@color/material_dynamic_neutral20"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="75dp" />
+    <TextView
+        android:id="@+id/CreateNametext"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/alata"
+        android:text="NAME"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="214dp" />
 
-        <EditText
-            android:id="@+id/CreatePasswordEditText"
-            android:layout_width="255dp"
-            android:layout_height="48dp"
-            android:background="@drawable/edittextbackground"
-            android:drawableLeft="@drawable/lock"
-            android:drawablePadding="5dp"
-            android:ems="10"
-            android:fontFamily="@font/alata"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:textColor="@color/material_dynamic_neutral20"
-            android:textColorHint="@color/black"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="278dp" />
+    <TextView
+        android:id="@+id/createEmailtext"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/alata"
+        android:text="EMAIL"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="316dp" />
 
-        <Button
-            android:id="@+id/Createbutton"
-            android:layout_width="255dp"
-            android:layout_height="47dp"
-            android:background="@drawable/button"
-            android:fontFamily="@font/alata"
-            android:text="Sıgn up "
-
-            android:textSize="18sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="354dp" />
-
-        <TextView
-            android:id="@+id/CreateLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Login!"
-            android:textColor="@color/material_dynamic_neutral40"
-            android:textSize="12sp"
-            tools:layout_editor_absoluteX="135dp"
-            tools:layout_editor_absoluteY="447dp" />
-
-        <TextView
-            android:id="@+id/CreateLittleTitletext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/alata"
-            android:gravity="center"
-            android:text="Already Registered ? Login here !"
-            android:textColor="@color/material_dynamic_neutral40"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="25dp"
-            tools:layout_editor_absoluteY="419dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/createEmailEdittext"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textColorHint="@color/material_dynamic_neutral20"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="349dp" />
 
     <TextView
         android:id="@+id/CreateTitletextView"

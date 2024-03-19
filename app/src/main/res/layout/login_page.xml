@@ -11,62 +11,94 @@
         android:id="@+id/CreateLittleTitletextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="38dp"
         android:fontFamily="@font/alata"
         android:text="Sign in to continue"
         android:textColor="@color/offWhite"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintBottom_toTopOf="@+id/CreateNametext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateTitletextView" />
 
     <TextView
         android:id="@+id/CreateTitletextView"
         android:layout_width="174dp"
         android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/alata"
         android:gravity="center"
         android:text="LOGIN"
         android:textColor="@color/offWhite"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="45dp" />
+        app:layout_constraintBottom_toTopOf="@+id/CreateLittleTitletextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/loginsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="62dp"
         android:text="Signup!"
         android:textColor="@color/material_dynamic_neutral40"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="554dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginforgotpassword" />
 
     <TextView
         android:id="@+id/loginforgotpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="23dp"
         android:gravity="center"
         android:text="Forgot Password?"
         android:textColor="@color/material_dynamic_neutral40"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="515dp" />
+        app:layout_constraintBottom_toTopOf="@+id/loginsignup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Createbutton" />
 
     <Button
         android:id="@+id/Createbutton"
         android:layout_width="255dp"
         android:layout_height="47dp"
-        android:background="@drawable/edittextbackground"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
         android:fontFamily="@font/alata"
         android:text="log ın "
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="432dp" />
+        app:layout_constraintBottom_toTopOf="@+id/loginforgotpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreatePasswordEditText" />
 
     <EditText
         android:id="@+id/CreatePasswordEditText"
         android:layout_width="255dp"
-        android:layout_height="0dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/edittextbackground"
         android:drawableLeft="@drawable/lock"
         android:drawablePadding="5dp"
@@ -78,13 +110,18 @@
         android:textColor="@color/material_dynamic_neutral20"
         android:textColorHint="@color/black"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Createbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreatePasswordtext" />
 
     <EditText
         android:id="@+id/CreateNameEdittext"
         android:layout_width="257dp"
         android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/edittextbackground"
         android:drawableLeft="@drawable/account"
         android:drawablePadding="5dp"
@@ -96,35 +133,44 @@
         android:textColor="@color/material_dynamic_neutral20"
         android:textColorHint="@color/material_dynamic_neutral20"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="212dp" />
+        app:layout_constraintBottom_toTopOf="@+id/CreatePasswordtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateNametext" />
 
     <TextView
         android:id="@+id/CreatePasswordtext"
         android:layout_width="143dp"
         android:layout_height="37dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="11dp"
         android:fontFamily="@font/alata"
         android:text="PASSWORD"
         android:textColor="@color/material_dynamic_neutral50"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="287dp" />
+        app:layout_constraintBottom_toTopOf="@+id/CreatePasswordEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateNameEdittext" />
 
     <TextView
         android:id="@+id/CreateNametext"
         android:layout_width="86dp"
         android:layout_height="36dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="2dp"
         android:fontFamily="@font/alata"
         android:text="NAME"
         android:textColor="@color/material_dynamic_neutral40"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="176dp" />
-
-    <androidx.constraintlayout.helper.widget.Layer
-        android:id="@+id/layer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        app:layout_constraintBottom_toTopOf="@+id/CreateNameEdittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateLittleTitletextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
