@@ -3223,7 +3223,6 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
-id constraintLayout
 id container
 id content
 id contentPanel
@@ -3331,7 +3330,6 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
-id layer
 id layout
 id left
 id leftToRight

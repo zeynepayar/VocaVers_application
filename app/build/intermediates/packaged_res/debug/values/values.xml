@@ -20,7 +20,7 @@
         <item>@font/poppins_thin</item>
     </array>
     <color name="black">#FF000000</color>
-    <color name="cherryRed">#911E42</color>
+    <color name="cherryRed">#6A8C79</color>
     <color name="offWhite">#F5F5F5</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">VocaVerseApplication</string>

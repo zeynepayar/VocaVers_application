@@ -34,10 +34,8 @@ id ForgotEmailEdittext
 id ForgotLoginbutton
 id ForgotNametext
 id ForgotResetbutton
-id constraintLayout
 id createEmailEdittext
 id createEmailtext
-id layer
 id loginforgotpassword
 id loginsignup
 layout forgot_password_page
