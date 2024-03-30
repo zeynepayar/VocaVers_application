@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643174774161",
+    "project_id": "vocaverseapp",
+    "storage_bucket": "vocaverseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643174774161:android:843bd49cce4d31ef329630",
+        "android_client_info": {
+          "package_name": "com.sudedenizsuvar.vocaverseapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV8unMLvST0kc7BI9o_X_sMDJp91ZhZSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
