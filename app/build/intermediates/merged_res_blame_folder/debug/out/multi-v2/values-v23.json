@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sudedenizsuvar.vocaverseapplication.app-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.sudedenizsuvar.vocaverseapplication.app-mergeDebugResources-39:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sudes\\.gradle\\caches\\transforms-3\\c1fb0fb464df787c9458f5aa9079531d\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\zeyne\\.gradle\\caches\\transforms-3\\f954c15d7b7b4817e076666bfef962a5\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sudes\\.gradle\\caches\\transforms-3\\c550ff2d945ec0859eed243237eaa66b\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\zeyne\\.gradle\\caches\\transforms-3\\512b61a1f363777432b2a5d3fee00afd\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sudes\\.gradle\\caches\\transforms-3\\b3863bfa1272a563921ae210836eac1e\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\zeyne\\.gradle\\caches\\transforms-3\\3117e796d3aa4949d1a1faa3778e0b2f\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

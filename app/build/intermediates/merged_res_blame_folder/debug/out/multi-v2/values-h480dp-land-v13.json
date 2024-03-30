@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sudedenizsuvar.vocaverseapplication.app-mergeDebugResources-29:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.sudedenizsuvar.vocaverseapplication.app-mergeDebugResources-39:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sudes\\.gradle\\caches\\transforms-3\\b3863bfa1272a563921ae210836eac1e\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\zeyne\\.gradle\\caches\\transforms-3\\3117e796d3aa4949d1a1faa3778e0b2f\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

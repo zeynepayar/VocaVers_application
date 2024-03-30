@@ -24,6 +24,12 @@
     <color name="offWhite">#F5F5F5</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">VocaVerseApplication</string>
+    <string name="gcm_defaultSenderId" translatable="false">643174774161</string>
+    <string name="google_api_key" translatable="false">AIzaSyCV8unMLvST0kc7BI9o_X_sMDJp91ZhZSw</string>
+    <string name="google_app_id" translatable="false">1:643174774161:android:843bd49cce4d31ef329630</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCV8unMLvST0kc7BI9o_X_sMDJp91ZhZSw</string>
+    <string name="google_storage_bucket" translatable="false">vocaverseapp.appspot.com</string>
+    <string name="project_id" translatable="false">vocaverseapp</string>
     <style name="Base.Theme.VocaVerseApplication" parent="Theme.Material3.DayNight.NoActionBar">
         
         

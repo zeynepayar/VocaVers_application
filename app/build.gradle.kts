@@ -37,16 +37,21 @@ android {
 }
 
 dependencies {
-
     implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
-        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
-    implementation("com.google.firebase:firebase-ml-vision:24.1.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
+    implementation("com.google.firebase:firebase-ml-vision:24.1.0") {
+        exclude(group = "com.google.android.gms", module = "play-services-vision-common")
+    }
+
+
+    // Add the dependency again without the conflicting module
+    implementation("com.google.android.gms:play-services-vision:20.0.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
