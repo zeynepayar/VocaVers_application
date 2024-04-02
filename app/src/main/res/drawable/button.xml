@@ -5,7 +5,11 @@
         android:state_pressed="false">
         <shape android:shape="rectangle">
             <corners android:radius="20dp" />
+<<<<<<< HEAD
             <solid android:color="@color/cherryRed" />
+=======
+            <solid android:color="@color/green" />
+>>>>>>> origin/main
         </shape>
     </item>
 
@@ -13,7 +17,11 @@
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <corners android:radius="30dp" />
+<<<<<<< HEAD
             <solid android:color="@color/cherryRed" />
+=======
+            <solid android:color="@color/green" />
+>>>>>>> origin/main
         </shape>
     </item>
 
@@ -21,7 +29,11 @@
     <item android:state_enabled="false">
         <shape android:shape="rectangle">
             <corners android:radius="20dp" />
+<<<<<<< HEAD
             <solid android:color="@color/cherryRed" />
+=======
+            <solid android:color="@color/green" />
+>>>>>>> origin/main
         </shape>
     </item>
 </selector>

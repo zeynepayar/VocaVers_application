@@ -34,6 +34,12 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+<<<<<<< HEAD
+=======
+    buildFeatures {
+        viewBinding = true
+    }
+>>>>>>> origin/main
 }
 
 dependencies {
@@ -52,6 +58,12 @@ dependencies {
 
     // Add the dependency again without the conflicting module
     implementation("com.google.android.gms:play-services-vision:20.0.0")
+<<<<<<< HEAD
+=======
+    implementation("androidx.navigation:navigation-fragment-ktx:2.6.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.6.0")
+    implementation("androidx.activity:activity:1.8.0")
+>>>>>>> origin/main
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
