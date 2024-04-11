@@ -49,7 +49,7 @@
         android:layout_marginBottom="144dp"
         android:text="Signup!"
         android:textColor="@color/material_dynamic_neutral40"
-        android:textSize="12sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +111,7 @@
         app:layout_constraintTop_toBottomOf="@+id/CreatePasswordtext" />
 
     <EditText
-        android:id="@+id/CreateNameEdittext"
+        android:id="@+id/LoginEmailEdittext"
         android:layout_width="257dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
@@ -122,7 +122,7 @@
         android:drawablePadding="5dp"
         android:ems="10"
         android:fontFamily="@font/alata"
-        android:hint="User Name"
+        android:hint="Email"
         android:inputType="text"
         android:padding="10dp"
         android:textColor="@color/material_dynamic_neutral20"
@@ -144,10 +144,10 @@
         android:text="PASSWORD"
         android:textColor="@color/material_dynamic_neutral50"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@+id/CreatePasswordEditText"
+        app:layout_constraintBottom_toTopOf="@+id/LoginPasswordEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CreateNameEdittext" />
+        app:layout_constraintTop_toBottomOf="@+id/LoginEmailEdittext" />
 
     <TextView
         android:id="@+id/CreateNametext"
@@ -157,10 +157,10 @@
         android:layout_marginTop="53dp"
         android:layout_marginEnd="247dp"
         android:fontFamily="@font/alata"
-        android:text="NAME"
+        android:text="EMAİL"
         android:textColor="@color/material_dynamic_neutral40"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@+id/CreateNameEdittext"
+        app:layout_constraintBottom_toTopOf="@+id/LoginEmailEdittext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CreateLittleTitletextView" />

@@ -1,46 +1,59 @@
 package com.sudedenizsuvar.vocaverseapplication.viewmodel
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+
 
 class LoginViewModel : ViewModel() {
-    private val _currentUser = MutableLiveData<FirebaseUser?>()
-    val currentUser: LiveData<FirebaseUser?>
-        get() = _currentUser
+    lateinit var auth:FirebaseAuth
+    lateinit var currentUser: FirebaseUser
+    var databaseReference:DatabaseReference?=null
+    var database:FirebaseDatabase?=null
 
-    private val firebaseAuth: FirebaseAuth by lazy {
-        FirebaseAuth.getInstance()
-    }
+    // Yeni üyelik oluşturma
+    fun signIn(email:String, userName:String, password:String){
+        auth = FirebaseAuth.getInstance()
+        database= FirebaseDatabase.getInstance()
+        databaseReference=database?.reference!!.child("profile")
 
-    fun signIn(email: String, password: String) {
-        firebaseAuth.signInWithEmailAndPassword(email, password)
-            .addOnCompleteListener { task ->
-                if (task.isSuccessful) {
-                    _currentUser.value = firebaseAuth.currentUser
-                } else {
-                    _currentUser.value = null
-                    // Giriş başarısız olduğunda işlemler buraya gelebilir
+
+        auth.createUserWithEmailAndPassword(email.toString(), password.toString()).addOnCompleteListener() { task ->
+                if (task.isSuccessful){
+                    //Şuanki kullanıcı bilgilerini alalım.
+                      currentUser = auth.currentUser!!
+                    //Kullanıcı id'sini alıp o id adı altında userName ve E-mail kaydedilir.
+                    var currentUserDb =
+                        currentUser?.let { it1 -> databaseReference?.child(it1.uid) }
+                    currentUserDb?.child("KullaniciAdi")?.setValue(userName.toString())
+                    currentUserDb?.child("E-mail")?.setValue(email.toString())
                 }
             }
     }
 
-    fun signUp(email: String, password: String) {
-        firebaseAuth.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener { task ->
-                if (task.isSuccessful) {
-                    _currentUser.value = firebaseAuth.currentUser
-                } else {
-                    _currentUser.value = null
-                    // Kayıt başarısız olduğunda işlemler buraya gelebilir
+    // Giriş yapma
+    fun logIn(email: String, password: String){
+        auth = FirebaseAuth.getInstance()
+        var currentUser = auth.currentUser
+
+        if(email != null && password != null){
+            // Giriş bilgilerini doğrulamak ve giriş yapmak
+            auth.signInWithEmailAndPassword(email , password)
+                .addOnCompleteListener{
+                    /*if (it.isSuccessful){
+                        intent = Intent(applicationContext, ProfilePageActivity::class.java)
+                        startActivity(intent)
+                        finish()
+                    }else{
+                        Toast.makeText(applicationContext, "Giriş hatalı, lütfen tekrar deneyin."
+                            , Toast.LENGTH_LONG).show()
+                    }*/
                 }
-            }
+        }
+
+
     }
 
-    fun signOut() {
-        firebaseAuth.signOut()
-        _currentUser.value = null
-    }
 }
